@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Lexend+Deca:wght@100..900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+body {
+  background-color: hsl(233, 47%, 7%);
+  color: white;
+}
+
+p {
+  font-size: 15px;
+}
+
+h3,
+p {
+  font-family: Inter;
+}
+
+h4 {
+  font-family: Lexend Deca;
+}
+
+.wrapped-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.container {
+  background-color: hsl(244, 38%, 16%);
+  width: 80%;
+  height: fit-content;
+  display: flex;
+}
+
+.wrapped-left {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.left {
+  width: 80%;
+}
+
+.left h3 {
+  color: hsl(0, 0%, 100%);
+  font-size: 2.3em;
+  padding-bottom: 30px;
+}
+
+.left p {
+  color: hsla(0, 0%, 100%, 0.75);
+  padding-bottom: 50px;
+  line-height: 25px;
+}
+
+.rate p {
+  color: hsla(0, 0%, 100%, 0.6);
+}
+
+.left h3 span {
+  color: hsl(277, 64%, 61%);
+}
+
+.left h4 {
+  font-size: 1.5em;
+  font-weight: 400;
+}
+
+.right {
+  width: 50%;
+}
+
+.rates {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.right img {
+  width: fit-content;
+  margin: 0 auto;
+}
+
+@media (max-width: 375px) {
+  .container {
+    width: 100%;
+    display: flex;
+    flex-direction: column-reverse;
+    column-direction
+  }
+
+  .wrapped-left {
+    width: 100%;
+  }
+
+  .left h3 {
+    margin-top: 30px;
+  }
+}
